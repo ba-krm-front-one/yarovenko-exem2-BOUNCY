@@ -18,6 +18,9 @@
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script src="assets/scripts/isotope.pkgd.min.js"></script>
     <script src="assets/scripts/smooth-scroll.js"></script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8n45-wCbx-M_rQY1SdAdli-Y7EKH5ZU4&callback=initMap">
+    </script>
     <script src="assets/scripts/main.js"></script>
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -147,8 +150,8 @@
                 </p>
 
             </header>
-            <div class="main-carousel">
-                <div class="carousel-cell">
+            <div class="main-carousel main-carousel__the-team">
+                <div class="carousel-cell carousel-cell__the-team ">
                     <div class="carousel-cell__containerr">
                         <img class="carousel-cell__img" src="assets/img/team-man.jpg" alt="man">
                         <section class="carousel-cell__content">
@@ -166,19 +169,19 @@
                                 iusto odio dignissimos ducimus qui blanditiis praesentium.
                             </p>
                         </section>
-                        `
+
                     </div>
                     <img class="stick-img" src="assets/img/stick.svg" alt="">
                 </div>
 
-                <div class="carousel-cell">
+                <div class="carousel-cell carousel-cell__the-team">
                     <div class="carousel-cell__containerr">
                         <img class="carousel-cell__img" src="assets/img/team-man.jpg" alt="man">
                         <section class="carousel-cell__content">
-                            <addres class="description-autor">
+                            <address class="description-autor">
                                 <p class="description-autor__name">Abubakar Patric</p>
                                 <p class="description-autor__works">Creative Director, Code Cafe</p>
-                            </addres>
+                            </address>
                             <p class="description-text">
                                 At vero eos et accusamus et iusto odio dignissimos ducimus qui
                                 blanditiis praesentium. At vero eos et accusamus et iusto odio
@@ -189,11 +192,11 @@
                                 iusto odio dignissimos ducimus qui blanditiis praesentium.
                             </p>
                         </section>
-                        `
+
                     </div>
                     <img class="stick-img" src="assets/img/stick.svg" alt="">
                 </div>
-                <div class="carousel-cell">
+                <div class="carousel-cell carousel-cell__the-team">
                     <div class="carousel-cell__containerr">
                         <img class="carousel-cell__img" src="assets/img/team-man.jpg" alt="man">
                         <section class="carousel-cell__content">
@@ -224,43 +227,107 @@
             Already Loved Us? Let’s talk!
         </h4>
         <button class="fa-contact__button">
-            <a data-scroll href="#contact"> Contact Us </a>
+            <a data-scroll href="#contact_us"> Contact Us </a>
         </button>
     </section>
-    <section id="testimonials">
-
+    <section id="testimonials" class="fa-testimonials">
+        <header class="fa-testimonials__header">
+            <h2 class="fa-testimonials__header__title">
+                Testimonials
+            </h2>
+            <p class="fa-testimonials__header__description">
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                praesentium
+            </p>
+        </header>
+        <section class="slider-testimonials">
+        <section class="main-carousel  main-carousel__testimonials">
+            <div class="carousel-cell carousel-cell__testimonials ">
+                <div class="carousel-cell-testimonials-container">
+                <img class="carousel-cell__img-testimonials " src="assets/img/test-photo.jpg" alt="man">
+                <div class="carousel-cell-testimonials-content">
+                    <p class="description-text">
+                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                        praesentium voluptatum deleniti atque corrupti quos dolores et quas
+                        molestias excepturi sint occaecati cupiditate non provident, similique sunt
+                        in culpa qui officia deserunt mollitia.
+                    </p>
+                    <addres class="description-autor">
+                        <p class="description-autor__name">Abdullah Noman</p>
+                        <p class="description-autor__works">Creative Director, Code Cafe</p>
+                    </addres>
+                </div>
+</div>
+            </div>
+            <div class="carousel-cell carousel-cell__testimonials ">
+                <div class="carousel-cell-testimonials-container">
+                    <img class="carousel-cell__img-testimonials " src="assets/img/test-photo.jpg" alt="man">
+                    <div class="carousel-cell-testimonials-content">
+                        <p class="description-text">
+                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                            praesentium voluptatum deleniti atque corrupti quos dolores et quas
+                            molestias excepturi sint occaecati cupiditate non provident, similique sunt
+                            in culpa qui officia deserunt mollitia.
+                        </p>
+                        <addres class="description-autor">
+                            <p class="description-autor__name">Abdullah Noman</p>
+                            <p class="description-autor__works">Creative Director, Code Cafe</p>
+                        </addres>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-cell carousel-cell__testimonials ">
+                <div class="carousel-cell-testimonials-container">
+                    <img class="carousel-cell__img-testimonials " src="assets/img/test-photo.jpg" alt="man">
+                    <div class="carousel-cell-testimonials-content">
+                        <p class="description-text">
+                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                            praesentium voluptatum deleniti atque corrupti quos dolores et quas
+                            molestias excepturi sint occaecati cupiditate non provident, similique sunt
+                            in culpa qui officia deserunt mollitia.
+                        </p>
+                        <addres class="description-autor">
+                            <p class="description-autor__name">Abdullah Noman</p>
+                            <p class="description-autor__works">Creative Director, Code Cafe</p>
+                        </addres>
+                    </div>
+                </div>
+            </div>
+                 </section>
+             </section>
+         </section>
     </section>
 </main>
-<footer class="fo-footer">
-    <header class="fa-main-portfolio-header">
-        <h2 class="fa-main-portfolio-header__header">
+<footer class="fo-footer" id="contact_us">
+    <header class="fo-footer__header">
+        <h2 class="fo-footer__header__title">
             Contact Us
         </h2>
-        <p class="fa-main-portfolio-header__description">
+        <p class="fo-footer__header__description">
             At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
         </p>
     </header>
-    <div id="map">
-
-    </div>
-    <script>
-        function initMap() {
-            var uluru = {lat: 48.7332085, lng: 37.5937418};
-            var map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 13,
-                center: uluru
-            });
-            var marker = new google.maps.Marker({
-                position: uluru,
-                map: map,
-                icon:'favicon.png',
-            });
-        }
-
-    </script>
-    <script async defer
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8n45-wCbx-M_rQY1SdAdli-Y7EKH5ZU4&callback=initMap">
-    </script>
+    <section>
+        <div id="map"></div>
+    </section>
+    <footer class="fo-footer__footer">
+        <img src="assets/img/bouncy_footer.png" alt="logo"
+             class="fo-footer__footer__title">
+        <p class="fo-footer__footer__copyright"> Copyright 2015. All rights Reserved</p>
+        <ul class="fo-footer-social-block">
+            <li class="fo-footer-social-block__link"><a href="#"><img
+                    src="assets/img/fb.png"
+                    alt=""></a></li>
+            <li class="fo-footer-social-block__link"><a href="#"><img
+                    src="assets/img/tv.png" alt=""></a></li>
+            <li class="fo-footer-social-block__link"><a href="#"><img
+                    src="assets/img/in.png" alt=""></a></li>
+            <li class="fo-footer-social-block__link"><a href="#"><img
+                    src="assets/img/inst.png" alt=""></a></li>
+            <li class="fo-footer-social-block__link"><a href="#"><img
+                    src="assets/img/vi.png" alt=""></a></li>
+        </ul>
+    </footer>
 </footer>
 
 

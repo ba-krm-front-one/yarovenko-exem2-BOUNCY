@@ -7,6 +7,7 @@
   height: 201px;
   display: flex;
   flex-direction: column;
+  background-color: #f3f3f3;
   &__title{
     margin: 0 auto;
     margin-top: 58px;
@@ -33,5 +34,10 @@
     border-radius: 18px;
     border: 1px solid #ffffff;
     text-align: center;
+    &:hover{
+      background-color: rgba(255,255,255, 0.2);
+      transform: scaleY(1.1);
+
+    }
   }
 }
