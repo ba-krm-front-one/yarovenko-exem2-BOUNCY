@@ -1,0 +1,7 @@
+#contact {
+  margin: 0 auto;
+  background: url(../img/contact-bg.png) center no-repeat;
+  margin-top: 100px;
+  background-size: cover;
+  width: 100%;
+  background-color: red; }
