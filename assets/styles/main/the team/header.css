@@ -1,0 +1,128 @@
+.carousel-cell__the-team {
+  width: 100%;
+  /* full width */
+  min-height: 364px;
+  /* height of carousel */
+  margin-right: 10px;
+  position: relative; }
+
+.flickity-prev-next-button {
+  display: none; }
+
+.flickity-page-dots {
+  bottom: 30px; }
+
+/* white circles */
+.flickity-page-dots .dot {
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #19bd9a; }
+
+/* fill-in selected dot */
+.flickity-page-dots .dot.is-selected {
+  background: #19bd9a; }
+
+#the-team {
+  min-width: 771px;
+  background-color: #ffffff; }
+
+.the-team-block {
+  margin: 0 auto;
+  max-width: 1028px; }
+
+.fa-team-header {
+  margin: 80px auto 0;
+  height: 94px;
+  max-width: 457px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column; }
+  .fa-team-header__header {
+    align-self: center;
+    width: 110px;
+    height: 14px;
+    color: #333b46;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 12px;
+    text-transform: uppercase; }
+  .fa-team-header__description {
+    text-align: center;
+    width: 457px;
+    height: 39px;
+    color: #81868e;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px; }
+
+.main-carousel__the-team {
+  margin-top: 62px;
+  min-height: 364px;
+  max-width: 100%; }
+
+.carousel-cell__content {
+  margin-top: 30px;
+  max-width: 370px;
+  min-height: 288px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 300px; }
+
+.description-autor {
+  float: right;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 42px; }
+  .description-autor__name {
+    width: 100%;
+    height: 15px;
+    color: #464646;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: right; }
+  .description-autor__works {
+    width: 100%;
+    height: 12px;
+    color: #81868e;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 25px;
+    text-transform: uppercase;
+    text-align: right; }
+
+.description-text {
+  max-width: 370px;
+  height: 214px;
+  color: #81868e;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: right; }
+
+.carousel-cell__img {
+  width: 285px;
+  height: 364px; }
+
+.carousel-cell__containerr {
+  display: flex;
+  justify-content: space-between;
+  position: relative; }
+
+.stick-img {
+  right: 0;
+  position: absolute;
+  top: 30px;
+  width: 4px;
+  height: 42px; }

@@ -7,13 +7,33 @@
   .ha-header__logo{
     width: 112px;
     height: 19px;
+    align-self: center;
 
   }
   .navigation-block{
-    width: 325px;
+    max-width: 325px;
     height: 100%;
     display: flex;
-    justify-content: space-between;}
+    justify-content: space-between;
+    margin-top: 0;
+    padding: 0;
+    &__link{
+      color: #ffffff;
+      width: 80px;
+      height: 33px;
+      background: transparent;
+      border: none;
+      &--active{
+        border: 1px solid #ffffff;
+        border-radius: 16px;
+      }
+      &:hover{
+        border: 1px solid #ffffff;
+        border-radius: 16px;
+        cursor: pointer;
+            }
+  }
+  }
 
     .navigation-block__item{
       display: inline-block;

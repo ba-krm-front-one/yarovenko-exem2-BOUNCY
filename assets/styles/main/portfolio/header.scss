@@ -6,12 +6,12 @@
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
-  &_header{
+  &__header{
     align-self: center;
     max-width: 181px;
     height: 14px;
     color: #333b46;
-    font-family: "Source Sans Pro",sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
     font-weight: 300;
     text-transform: uppercase;
