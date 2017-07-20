@@ -1,0 +1,50 @@
+.ha-header{
+  margin: 0 auto;
+  height: 38px;
+  max-width: 1177px;
+  display: flex;
+  justify-content: space-between;
+  .ha-header__logo{
+    width: 112px;
+    height: 19px;
+    align-self: center;
+
+  }
+  .navigation-block{
+    max-width: 325px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    padding: 0;
+    &__link{
+      color: #ffffff;
+      width: 80px;
+      height: 33px;
+      background: transparent;
+      border: none;
+      &--active{
+        border: 1px solid #ffffff;
+        border-radius: 16px;
+      }
+      &:hover{
+        border: 1px solid #ffffff;
+        border-radius: 16px;
+        cursor: pointer;
+            }
+  }
+  }
+
+    .navigation-block__item{
+      display: inline-block;
+      text-decoration: none;
+      list-style: none;
+      color: #ffffff;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 12px;
+      align-self: center;
+    }
+  }
+

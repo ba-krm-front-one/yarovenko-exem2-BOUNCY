@@ -1,0 +1,7 @@
+.ha-header-block {
+  margin: 0 auto;
+  background: url(header_bg.jpg) center no-repeat;
+  background-size: cover;
+  min-height: 738px;
+  padding-top: 38px;
+  z-index: 99999; }

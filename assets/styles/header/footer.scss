@@ -1,0 +1,14 @@
+.ha-footer{
+  margin:0 auto ;
+  display: flex;
+  justify-content: space-around;
+}
+.ha-footer__arrow-scroll img{
+margin-top: 220px;
+  height: 36px;
+  width: 36px;
+  &:hover{
+    transform: scale(1.3);
+  }
+
+}

@@ -1,0 +1,30 @@
+.fa-testimonials__header {
+  margin: 80px auto 60px;
+  height: 94px;
+  max-width: 457px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  .fa-testimonials__header__title {
+    height: 14px;
+    color: #333b46;
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 12px;
+    text-transform: uppercase; }
+  .fa-testimonials__header__description {
+    max-width: 457px;
+    height: 39px;
+    color: #81868e;
+    font-family: "Open Sans",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px; }
+
+.fa-testimonials {
+  margin: 0 auto;
+  height: 650px;
+  width: 100%;
+  background-color: burlywood; }

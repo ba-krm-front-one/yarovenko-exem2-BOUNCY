@@ -1,0 +1,25 @@
+
+
+.flickity-prev-next-button {
+  display: none;
+}
+.flickity-page-dots {
+  bottom: 30px;
+ }
+/* white circles */
+.flickity-page-dots .dot {
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid #19bd9a;
+
+
+}
+/* fill-in selected dot */
+.flickity-page-dots .dot.is-selected {
+  background: #19bd9a;
+}
+
+
+
